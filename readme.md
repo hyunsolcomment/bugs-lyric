@@ -1,6 +1,6 @@
 # Bugs Lyrics
 
-벅스로부터 노래 제목을 받고 노래의 가사를 반환합니다.
+벅스로부터 노래 제목을 받고 노래의 가사를 반환하는 클래스입니다.
 
 ## 설치법
 
@@ -16,6 +16,12 @@ npm install
 const lyrics = await BugsLyrics.getLyrics("다정히 내 이름을 부르면");
 
 console.log(lyrics);
+
+// 혹은 
+
+BugsLyrics.getLyrics("다정히 내 이름을 부르면").then(lyrics => {
+  console.log(lyrics);
+})
 ```
 
 출력:
