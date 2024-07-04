@@ -15,7 +15,7 @@ export class BugsLyrics {
     
             return trackId;
         } catch (error) {
-            console.error('노래 검색 중 오류가 발생했어요:', error);
+            console.error('노래 검색 중 오류가 발생했어요.', error);
         }
     };
     
@@ -32,7 +32,7 @@ export class BugsLyrics {
     
             return lyrics;
         } catch (error) {
-            console.error('가사를 불러오던 중 오류가 발생했어요:', error);
+            console.error('가사를 불러오던 중 오류가 발생했어요.', error);
         }
     }
 
